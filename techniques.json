@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Micro Goal Setting",
+    "theory": "COM-B Model",
+    "target_component": "capability",
+    "barrier_keywords": ["don't know how", "not sure", "confused", "unclear", "don't understand", "can't figure out"],
+    "prompt_template": "Let's break this down into tiny steps. What is ONE small action you could take in the next 2 hours toward [GOAL]? Make it so small that it feels almost too easy—something you absolutely cannot fail at.",
+    "duration_minutes": 2,
+    "evidence_base": "Implementation science research shows micro-goals increase completion rates by 40% (Latham & Locke, 2007)"
+  },
+  {
+    "id": 2,
+    "name": "Environmental Restructuring",
+    "theory": "COM-B Model",
+    "target_component": "opportunity",
+    "barrier_keywords": ["no time", "busy", "schedule", "environment", "space", "cluttered", "distractions"],
+    "prompt_template": "Think about your physical space right now. What is ONE thing you could change in your environment today to make [GOAL] 10% easier? It could be moving something, adding a visual reminder, or removing a distraction.",
+    "duration_minutes": 5,
+    "evidence_base": "Environmental cues increase behavior frequency by 60% (Wood & Neal, 2016)"
+  },
+  {
+    "id": 3,
+    "name": "Intrinsic Motivation Boost",
+    "theory": "Self-Determination Theory",
+    "target_component": "motivation",
+    "barrier_keywords": ["unmotivated", "don't want", "boring", "tired", "lazy", "no energy", "don't feel like"],
+    "prompt_template": "Let's connect [GOAL] to something you genuinely care about. Forget 'should' for a moment. If you achieved [GOAL], what would it give you that truly matters to YOUR life? How would it make you feel?",
+    "duration_minutes": 3,
+    "evidence_base": "Intrinsic motivation predicts 2x higher long-term adherence than extrinsic rewards (Ryan & Deci, 2000)"
+  },
+  {
+    "id": 4,
+    "name": "Implementation Intention",
+    "theory": "Behavioral Economics",
+    "target_component": "capability",
+    "barrier_keywords": ["forget", "inconsistent", "planning", "remember", "routine"],
+    "prompt_template": "Let's create a specific trigger. Complete this sentence with ultra-specific details: 'When [exact time/place/situation], I will [exact action toward GOAL].' Example: 'When I close my laptop at 6pm, I will put on my running shoes in the hallway.'",
+    "duration_minutes": 2,
+    "evidence_base": "Implementation intentions increase goal achievement by 91% (Gollwitzer & Sheeran, 2006)"
+  },
+  {
+    "id": 5,
+    "name": "Autonomy Support",
+    "theory": "Self-Determination Theory",
+    "target_component": "motivation",
+    "barrier_keywords": ["pressure", "forced", "have to", "obligation", "should", "must"],
+    "prompt_template": "You're completely in charge here. If you could approach [GOAL] in ANY way that feels right to YOU—no rules, no judgments, no 'shoulds'—what would that look like? What feels authentic to you?",
+    "duration_minutes": 3,
+    "evidence_base": "Autonomy support increases intrinsic motivation by 55% and reduces dropout by 40% (Deci & Ryan, 1985)"
+  },
+  {
+    "id": 6,
+    "name": "Reflective Listening",
+    "theory": "Motivational Interviewing",
+    "target_component": "motivation",
+    "barrier_keywords": ["conflicted", "unsure", "mixed feelings", "ambivalent", "torn"],
+    "prompt_template": "It sounds like part of you wants [GOAL], but another part has doubts or concerns. Both parts make sense. What might the doubtful part be trying to protect you from? Let's honor both sides of this.",
+    "duration_minutes": 4,
+    "evidence_base": "Motivational Interviewing techniques increase behavior change by 55% compared to standard advice (Rubak et al., 2005)"
+  },
+  {
+    "id": 7,
+    "name": "Social Proof Nudge",
+    "theory": "Behavioral Economics",
+    "target_component": "opportunity",
+    "barrier_keywords": ["alone", "isolated", "no support", "nobody", "by myself"],
+    "prompt_template": "You're not alone in this. Many people working toward [GOAL] have found it helpful to [specific proven action]. Would you like to try this approach that others have found successful?",
+    "duration_minutes": 2,
+    "evidence_base": "Social norms influence 68% of behavior change decisions (Cialdini, 2007)"
+  },
+  {
+    "id": 8,
+    "name": "Competence Building",
+    "theory": "Self-Determination Theory",
+    "target_component": "capability",
+    "barrier_keywords": ["can't", "unable", "not good at", "fail", "bad at", "struggling"],
+    "prompt_template": "Think back to a time you learned something new and got better at it—anything at all. What did you do? How did you practice? You've built competence before. How can you apply that same strategy to [GOAL]?",
+    "duration_minutes": 4,
+    "evidence_base": "Competence feedback increases task persistence by 45% and reduces anxiety (Deci et al., 1999)"
+  },
+  {
+    "id": 9,
+    "name": "Temptation Bundling",
+    "theory": "Behavioral Economics",
+    "target_component": "motivation",
+    "barrier_keywords": ["boring", "unpleasant", "dislike", "hate", "dread"],
+    "prompt_template": "Let's pair [GOAL] with something you absolutely love. Rule: You ONLY get to enjoy [favorite activity] while doing [GOAL]. For example, only listen to your favorite podcast while exercising. What enjoyable thing could you bundle with [GOAL]?",
+    "duration_minutes": 2,
+    "evidence_base": "Temptation bundling increases gym attendance by 51% and reduces habit formation time (Milkman et al., 2014)"
+  },
+  {
+    "id": 10,
+    "name": "Commitment Device",
+    "theory": "Behavioral Economics",
+    "target_component": "opportunity",
+    "barrier_keywords": ["procrastinate", "delay", "put off", "later", "tomorrow"],
+    "prompt_template": "Accountability works. Right now, text ONE person: 'I'm going to [specific action toward GOAL] by [exact time today].' Don't overthink it—just send the message. Small public commitment = big follow-through.",
+    "duration_minutes": 3,
+    "evidence_base": "Public commitment devices increase follow-through by 73% (Rogers et al., 2014)"
+  }
+]
